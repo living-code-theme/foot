@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "foot",
+  "slug": "foot",
+  "group": "Terminals",
+  "emoji": "🦶",
+  "description": "Living Code for foot. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://codeberg.org/dnkl/foot",
+  "quick": "See installation instructions",
+  "aliases": [
+    "foot"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.ini",
+    "living-code-night.ini",
+    "living-code-paper.ini",
+    "living-code-signal.ini"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "foot running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "foot running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "foot running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "foot running Living Code Signal"
+    }
+  ]
+}
